@@ -13,7 +13,7 @@ void* write_Red(void *pthread);				//Threads call these function
 void* write_Green(void *pthread);
 //------------------------------------------------------//
 //Global declarations 
-FILE *fp;									// Common file where each thread will write ("SHARED MEMORY")
+FILE *fp;						// Common file where each thread will write ("SHARED MEMORY")
 int default_run = 1000;					// Default Run by each threads
 int temp_threads = 100;					// Default Number of threads
 int number_of_run = 10;					// Default Number of run
